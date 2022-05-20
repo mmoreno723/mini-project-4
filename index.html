@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Search-Engine</title>
 </head>
 <body>
     <div class="card mb-3">
@@ -14,19 +14,19 @@
             <form>
                 <div class="form-group">
                   <label for="formGroupExampleInput">Library of Congress Search Engine</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Search">
+                  <input type="text" class="form-control" id="search-input" placeholder="Search">
                   <select class="custom-select">
                     <option selected>Select a format...</option>
-                    <option value="1">Maps</option>
-                    <option value="2">Audio Recordings</option>
-                    <option value="3">Photos</option>
-                    <option value="4">Manuscripts</option>
-                    <option value="5">Newspapers</option>
-                    <option value="6">Film and Videos</option>
-                    <option value="7">Notated Music</option>
-                    <option value="8">Websites</option>
+                    <option value="1" id="maps">Maps</option>
+                    <option value="2" id="audio">Audio Recordings</option>
+                    <option value="3" id="photos">Photos</option>
+                    <option value="4" id="manuscripts">Manuscripts</option>
+                    <option value="5" id="newspapers">Newspapers</option>
+                    <option value="6" id="film-and-videos">Film and Videos</option>
+                    <option value="7" id="notated-music">Notated Music</option>
+                    <option value="8" id="websites">Websites</option>
                   </select>
-                  <button type="button" class="btn btn-primary">Search</button>
+                  <button type="button" class="btn btn-primary" id="search-button">Search</button>
                 </div>
               </form>
         </div>
